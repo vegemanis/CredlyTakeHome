@@ -28,4 +28,4 @@ Error Handling for network and parsing errors has been implemented. It is a limi
 A standard Refresh control has been added to the table view.
 
 ## Demo
-![](https://raw.githubusercontent.com/Alamofire/Alamofire/master/Resources/AlamofireLogo.png)
+![](https://github.com/vegemanis/CredlyTakeHome/blob/main/Resources/Demo.gif)
