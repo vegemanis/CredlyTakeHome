@@ -1,0 +1,1313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		005B319B494ED2DAA239B9939A504DFC /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CFBBA1A085E8ABB01CF03D5BC486FEE /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		045DE6EBF9B2F63F60F5BE60C1198E06 /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94AA18C070E2DD61C14338CD1138EE4 /* RedirectHandler.swift */; };
+		04A896288CE3A59B530250337A5F8362 /* Result+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E846EF21E2A91E0DB085F4CE9F72E2 /* Result+Alamofire.swift */; };
+		0F4037DBF307AC8058BD0A3D35C7E7E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		10A033D8E9171F11195D081DF708D747 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		13F21AD19E5114EEA432208331ED864D /* Serialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021B983C24DC58E20A120D109A718A77 /* Serialization.swift */; };
+		14C49E327E4BDAE2BAB1265E1580EEF5 /* Pods-Credly Take HomeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AFD3E305F091285991D48A0A86AA532 /* Pods-Credly Take HomeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1976BB7D7E26A12E29283E71154B63B3 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D75E19F43548CD069D8FF6B72BE45 /* SessionDelegate.swift */; };
+		1EE44196E7BCE57AD96A2C751651EF40 /* AlamofireExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47960A9611A231A69786DBD3E3A53FE3 /* AlamofireExtended.swift */; };
+		2CBE3651CA006E19F5D64A2DE9B9A028 /* CachedResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3B45294FE077D7424A361FCFD3AF0A /* CachedResponseHandler.swift */; };
+		2CCD13099063CD560E3067BD132914FA /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1474900F1CCB0C7C00DFA4A24A359C1A /* Notifications.swift */; };
+		33A7D0F2D03004CE256A75E03DF33C70 /* RetryPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12386805768DFB89F1F86283D3F0B7A1 /* RetryPolicy.swift */; };
+		366982C805F668F7AA4FCEC268517EB3 /* JSONParserSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF2FF6825E1AF93C19E00C1DEDF65A7 /* JSONParserSwift-dummy.m */; };
+		3C4059621E23842C19D4EB5D35B41989 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2325D00DC5843984AA875CDF8F0C905 /* Validation.swift */; };
+		45443FB753F265E5D4EF4555692C5FC9 /* Pods-Credly Take Home-Credly Take HomeUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA9EE58DFD9B6490CA1C726A2C9397DB /* Pods-Credly Take Home-Credly Take HomeUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46A64A43AFA057B6B63C8F0C12F509B4 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AA04FA46F0084D1169A121246D081F /* Combine.swift */; };
+		47773E7DC88C23001587A48929CBC167 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		4A6DE9FBCA00DB2A56FBBCF7A536F4CC /* ParsableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF5B078AADC685ACD0089B64AFB213D /* ParsableModel.swift */; };
+		50E370831F34F4F521C5B3DE02A3617B /* JSONParserSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D7D392352BA63445EA161251C5BB4B /* JSONParserSwift.swift */; };
+		55AABB1FB38F61A3369ACC555FF3046D /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54187AA314EF3F56DEF57E19EB2F9D4A /* Alamofire-dummy.m */; };
+		5CC3D30465456C56EB5CDC8FFF0F49A7 /* JSONParserSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB55D70E13089616245713471A6E4EFE /* JSONParserSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62A81F4BEE131247622E20D46A442ED7 /* Pods-Credly Take Home-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47A7F2E51C23B7D180DF86302FC72B2D /* Pods-Credly Take Home-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68FB2DCB4C77DBCAF9A6037E470F2BDE /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4333C335A1D4F906B11FCDB8D961BA /* ParameterEncoding.swift */; };
+		7483E5327027263F7E4B94A2997191C4 /* AuthenticationInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED90DDF0C30C515387C8F96EFD2E1AB /* AuthenticationInterceptor.swift */; };
+		75966A9262648D4647D764E3E76BC6AC /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7627916AF5EADB55DD8953215DAFE35 /* Response.swift */; };
+		7930C94414B4C661867AC4FBE82E996C /* URLEncodedFormEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E2DB97FAF8F8F248FFF961B5CAC52D /* URLEncodedFormEncoder.swift */; };
+		7B068137A8925891446203B5D3D6A4ED /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3D57353834825F7B52B816066B7789 /* CFNetwork.framework */; };
+		7E02F5B62BE00E97847DF549FFED2490 /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48C49068C203FC38CD67AA1BE466E1F /* HTTPHeaders.swift */; };
+		7F1BB526AAE3ECDCE90127D9D0E10261 /* StringEncoding+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE3E776E263540F9DF4C3A2A90B8E51 /* StringEncoding+Alamofire.swift */; };
+		7FE695DA8EE7FF1286556E06B692009B /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEEDDF0549B4A12FA5E900DAEF843C4 /* MultipartFormData.swift */; };
+		808C960C82D708FC1A42C581D6CB4940 /* URLSessionConfiguration+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEF5BA62504C038083BEE2597592ABE /* URLSessionConfiguration+Alamofire.swift */; };
+		81B8D2B7CEB25C2448B0BC9B33591A65 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E3BA6962DDB53A6A5CB0192C5F92D4 /* Session.swift */; };
+		824D816B1EE404F2DD400EE678695CBE /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE6B69D0B571D4B919F2B76443D6E82 /* ResponseSerialization.swift */; };
+		8D75FC8D7476C9674234F39F1A820D8C /* URLConvertible+URLRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0C84D7DB9ABB9C3F88E85F4700A0EF /* URLConvertible+URLRequestConvertible.swift */; };
+		99D058E53EFEE3AC4857CDE3DBA5C004 /* ParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A57E81E682AF4B3833454A8FCAEF9E6 /* ParameterEncoder.swift */; };
+		9B5AEB72239403A2FB1A7E0E9C06F29A /* Pods-Credly Take HomeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55149C9C2085B0F830B215D3005CDF64 /* Pods-Credly Take HomeTests-dummy.m */; };
+		9C9030DEDB0DF955B16FE08C50892D57 /* Concurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF5BB20CAC911DEA9D2DFF8F679B85D /* Concurrency.swift */; };
+		A1822F1403792C383F1CB0A8B6BF3DE5 /* Pods-Credly Take Home-Credly Take HomeUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB68634E6715389D780460A0E2F82BE8 /* Pods-Credly Take Home-Credly Take HomeUITests-dummy.m */; };
+		A29100AA1876DDEFF6F54694A51FDB0E /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6977D486621B0B0FE931CA9D559797 /* NetworkReachabilityManager.swift */; };
+		A53BDE589BDD6483F3EEDCE5EA1DCCD3 /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F29EB3D20EFBACB7A1E9D04CB225173 /* Protected.swift */; };
+		B3658C29BBDE1033F6269A92E612CB30 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C607956D31DCD9A6EAC11FFD23EC01 /* Request.swift */; };
+		B704B198B9B520D449260877E300D821 /* ServerTrustEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBF6FD6CA1ACAE440F964CAC6425E03 /* ServerTrustEvaluation.swift */; };
+		BC0ECA8F22DEDE8886E189CD0EAA1197 /* URLRequest+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CFA21A4DF4420B7686BC8C8B3F79AA /* URLRequest+Alamofire.swift */; };
+		C99C8230C7CF9430D296E1CE135C98DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		CC260E7269867D77BAB44826694FAE98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		CEBFFEED65D877702B2F36102528CF6D /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374E4408D5E87CDC930F6489D82810B6 /* EventMonitor.swift */; };
+		D0EA90FBF83350C49E6EF6C8A98D6F00 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07799176F4ACB2E94EFA7BF208CFA8E6 /* AFError.swift */; };
+		D6B4751CED01D53E4A1B6A571AAA2F83 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EA206B7571F79803E12D8533B116AD /* HTTPMethod.swift */; };
+		DA34899BEF0668D76CBCE8C4CE47B97B /* RequestTaskMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F183B5BCE2C96C2F94508BC0E342EC6A /* RequestTaskMap.swift */; };
+		DD902FE8D6824681C929D028655AE121 /* RequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253EC2F02CF01878CD403BABDA2164A7 /* RequestInterceptor.swift */; };
+		DE52A232B1625E028DE4041E89B874BE /* Pods-Credly Take Home-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0786813D34B806F5C24B2180101929C9 /* Pods-Credly Take Home-dummy.m */; };
+		E54654D504A42C24F284A68F87F7671D /* OperationQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB62400532AA3300AB53F759FB14815B /* OperationQueue+Alamofire.swift */; };
+		E9B4C89E7EB3B27D46AFCA452C3D426F /* MultipartUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD3A30A09A2C1139C7048D97D6BC618 /* MultipartUpload.swift */; };
+		EEC150B66BCCD6C80FDA7E4D1975166B /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AA8AA0AC21ECDEFE62A0347B01017C /* DispatchQueue+Alamofire.swift */; };
+		F17A4CA4664CABB331D39FE902E06843 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747F5BA0BED341217C321AE0D97EAB92 /* Alamofire.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B6554C2B3FD10EDB4EA88E548E96ED6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8460110F37E589D18D77016CF1A4D164;
+			remoteInfo = JSONParserSwift;
+		};
+		3918A2DBB0D0E5463CDB6BB9AB3DCB3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2937F62A28B51AEA28885657E184EC31;
+			remoteInfo = "Pods-Credly Take Home";
+		};
+		4767FEF14AC53EEF4B8C51D23BD1611B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		6AD1324DD1CDC4D40C24748F4E07EE61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		BCA085EAE1EB4638D13C4844E80C00A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8460110F37E589D18D77016CF1A4D164;
+			remoteInfo = JSONParserSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00CFA21A4DF4420B7686BC8C8B3F79AA /* URLRequest+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+Alamofire.swift"; path = "Source/URLRequest+Alamofire.swift"; sourceTree = "<group>"; };
+		021B983C24DC58E20A120D109A718A77 /* Serialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Serialization.swift; path = Source/Serialization.swift; sourceTree = "<group>"; };
+		07799176F4ACB2E94EFA7BF208CFA8E6 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		0786813D34B806F5C24B2180101929C9 /* Pods-Credly Take Home-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Credly Take Home-dummy.m"; sourceTree = "<group>"; };
+		095795E4E739A834F8C2378E2DCA38C5 /* Pods-Credly Take HomeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Credly Take HomeTests.modulemap"; sourceTree = "<group>"; };
+		0AFD3E305F091285991D48A0A86AA532 /* Pods-Credly Take HomeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Credly Take HomeTests-umbrella.h"; sourceTree = "<group>"; };
+		0E7194B80FAE9D3BDF6BE6DE0A48EAB0 /* JSONParserSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JSONParserSwift.modulemap; sourceTree = "<group>"; };
+		0EF2FF6825E1AF93C19E00C1DEDF65A7 /* JSONParserSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSONParserSwift-dummy.m"; sourceTree = "<group>"; };
+		12386805768DFB89F1F86283D3F0B7A1 /* RetryPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryPolicy.swift; path = Source/RetryPolicy.swift; sourceTree = "<group>"; };
+		1316B952656CAA1A440557F1DD7B0284 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		1474900F1CCB0C7C00DFA4A24A359C1A /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		1636EA691FE79BA8171C25CE64633EFB /* Pods-Credly Take Home.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Credly Take Home.modulemap"; sourceTree = "<group>"; };
+		17D2B42FBA5681060F776EA989BF5C70 /* Pods-Credly Take Home-Credly Take HomeUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Credly Take Home-Credly Take HomeUITests-frameworks.sh"; sourceTree = "<group>"; };
+		1918916F1A6F140E3288D94A88011764 /* Pods-Credly Take Home */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Credly Take Home"; path = Pods_Credly_Take_Home.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EF5BB20CAC911DEA9D2DFF8F679B85D /* Concurrency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Concurrency.swift; path = Source/Concurrency.swift; sourceTree = "<group>"; };
+		1FD3A30A09A2C1139C7048D97D6BC618 /* MultipartUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartUpload.swift; path = Source/MultipartUpload.swift; sourceTree = "<group>"; };
+		253EC2F02CF01878CD403BABDA2164A7 /* RequestInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestInterceptor.swift; path = Source/RequestInterceptor.swift; sourceTree = "<group>"; };
+		28AA8AA0AC21ECDEFE62A0347B01017C /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		2B0C84D7DB9ABB9C3F88E85F4700A0EF /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLConvertible+URLRequestConvertible.swift"; path = "Source/URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
+		2B16F7F76B067BB82747AAE4C3F6953B /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		2BE3E776E263540F9DF4C3A2A90B8E51 /* StringEncoding+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StringEncoding+Alamofire.swift"; path = "Source/StringEncoding+Alamofire.swift"; sourceTree = "<group>"; };
+		322C2D26E9EEA459C3B872F187388B56 /* Pods-Credly Take Home.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Credly Take Home.debug.xcconfig"; sourceTree = "<group>"; };
+		374E4408D5E87CDC930F6489D82810B6 /* EventMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventMonitor.swift; path = Source/EventMonitor.swift; sourceTree = "<group>"; };
+		3D6977D486621B0B0FE931CA9D559797 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		4076A70EA118B982870837BBC5A1D74F /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
+		41E2DB97FAF8F8F248FFF961B5CAC52D /* URLEncodedFormEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLEncodedFormEncoder.swift; path = Source/URLEncodedFormEncoder.swift; sourceTree = "<group>"; };
+		47960A9611A231A69786DBD3E3A53FE3 /* AlamofireExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtended.swift; path = Source/AlamofireExtended.swift; sourceTree = "<group>"; };
+		47A7F2E51C23B7D180DF86302FC72B2D /* Pods-Credly Take Home-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Credly Take Home-umbrella.h"; sourceTree = "<group>"; };
+		48120ECB831B27D840C62575B50BDB24 /* Pods-Credly Take Home-Credly Take HomeUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Credly Take Home-Credly Take HomeUITests"; path = Pods_Credly_Take_Home_Credly_Take_HomeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48D7D392352BA63445EA161251C5BB4B /* JSONParserSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONParserSwift.swift; path = Source/JSONParserSwift.swift; sourceTree = "<group>"; };
+		4A3B45294FE077D7424A361FCFD3AF0A /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/CachedResponseHandler.swift; sourceTree = "<group>"; };
+		4ACA1926CBACE3E4B11A94F3934C3689 /* Pods-Credly Take HomeTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Credly Take HomeTests"; path = Pods_Credly_Take_HomeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		532335530694883B9FBAD62D5FBB14DF /* JSONParserSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONParserSwift-prefix.pch"; sourceTree = "<group>"; };
+		54187AA314EF3F56DEF57E19EB2F9D4A /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		55149C9C2085B0F830B215D3005CDF64 /* Pods-Credly Take HomeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Credly Take HomeTests-dummy.m"; sourceTree = "<group>"; };
+		5BB0F1E42021D1BCD2745BBDBBE06B0F /* Pods-Credly Take Home-Credly Take HomeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Credly Take Home-Credly Take HomeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5CFBBA1A085E8ABB01CF03D5BC486FEE /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C6CFC07E5397A5211DFE8E696AA747 /* Pods-Credly Take Home-Credly Take HomeUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Credly Take Home-Credly Take HomeUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6366AB9E0F6BECDD663F3599481D21C1 /* Pods-Credly Take HomeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Credly Take HomeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		63AA04FA46F0084D1169A121246D081F /* Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Combine.swift; path = Source/Combine.swift; sourceTree = "<group>"; };
+		63D7B9F92A0781AA2003EB741A44E321 /* Pods-Credly Take Home-Credly Take HomeUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Credly Take Home-Credly Take HomeUITests-Info.plist"; sourceTree = "<group>"; };
+		6AE6B69D0B571D4B919F2B76443D6E82 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		6F29EB3D20EFBACB7A1E9D04CB225173 /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Source/Protected.swift; sourceTree = "<group>"; };
+		747F5BA0BED341217C321AE0D97EAB92 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		799CB08878D775CBDFC2DC28BFFF26AB /* Pods-Credly Take HomeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Credly Take HomeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7CEEDDF0549B4A12FA5E900DAEF843C4 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		89E846EF21E2A91E0DB085F4CE9F72E2 /* Result+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Result+Alamofire.swift"; path = "Source/Result+Alamofire.swift"; sourceTree = "<group>"; };
+		8C071FA4E0A1F1F5BCCC8FC2455588E1 /* Pods-Credly Take Home.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Credly Take Home.release.xcconfig"; sourceTree = "<group>"; };
+		8D3D57353834825F7B52B816066B7789 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		8ECF7A2E16A35C2691994821C8247CB7 /* JSONParserSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JSONParserSwift; path = JSONParserSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F475B7234479217D7897B4FD9039045 /* Pods-Credly Take HomeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Credly Take HomeTests.release.xcconfig"; sourceTree = "<group>"; };
+		959CBA442FD9E7D54C8A49D5A1A69B89 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		9A57E81E682AF4B3833454A8FCAEF9E6 /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/ParameterEncoder.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A482AA65F995DA484AF9F00FD47096E0 /* Pods-Credly Take Home-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Credly Take Home-acknowledgements.plist"; sourceTree = "<group>"; };
+		B2325D00DC5843984AA875CDF8F0C905 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		B68D75E19F43548CD069D8FF6B72BE45 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		B7627916AF5EADB55DD8953215DAFE35 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		B94AA18C070E2DD61C14338CD1138EE4 /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Source/RedirectHandler.swift; sourceTree = "<group>"; };
+		BA57D0BC6D3908916FB68958999C90B2 /* Pods-Credly Take Home-Credly Take HomeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Credly Take Home-Credly Take HomeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BB68634E6715389D780460A0E2F82BE8 /* Pods-Credly Take Home-Credly Take HomeUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Credly Take Home-Credly Take HomeUITests-dummy.m"; sourceTree = "<group>"; };
+		BCBF6FD6CA1ACAE440F964CAC6425E03 /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustEvaluation.swift; path = Source/ServerTrustEvaluation.swift; sourceTree = "<group>"; };
+		C686795EC421ADF9CE70397917AB4637 /* Pods-Credly Take HomeTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Credly Take HomeTests-Info.plist"; sourceTree = "<group>"; };
+		C7C607956D31DCD9A6EAC11FFD23EC01 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		C9E3BA6962DDB53A6A5CB0192C5F92D4 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Source/Session.swift; sourceTree = "<group>"; };
+		CA0174C72D526F12A7F9584B7E0F721E /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
+		CA9EE58DFD9B6490CA1C726A2C9397DB /* Pods-Credly Take Home-Credly Take HomeUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Credly Take Home-Credly Take HomeUITests-umbrella.h"; sourceTree = "<group>"; };
+		CBCE6B4EA62CFD795C9360F2920C9FBC /* Pods-Credly Take Home-Credly Take HomeUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Credly Take Home-Credly Take HomeUITests.modulemap"; sourceTree = "<group>"; };
+		D391CED6301867F7803B8C53C4CE90A3 /* Pods-Credly Take Home-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Credly Take Home-frameworks.sh"; sourceTree = "<group>"; };
+		DB62400532AA3300AB53F759FB14815B /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Alamofire.swift"; path = "Source/OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		DD20700C31E418175671E04CC41B5152 /* Pods-Credly Take Home-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Credly Take Home-Info.plist"; sourceTree = "<group>"; };
+		DED90DDF0C30C515387C8F96EFD2E1AB /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationInterceptor.swift; path = Source/AuthenticationInterceptor.swift; sourceTree = "<group>"; };
+		DF4333C335A1D4F906B11FCDB8D961BA /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		E1BB9E5E89393A90C7E2114F6F0619C8 /* Pods-Credly Take Home-Credly Take HomeUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Credly Take Home-Credly Take HomeUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E2EA206B7571F79803E12D8533B116AD /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Source/HTTPMethod.swift; sourceTree = "<group>"; };
+		E6BCFB126556E2F8F9353480113F49A2 /* Pods-Credly Take HomeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Credly Take HomeTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E957FD507DF6ACDD3140E592BFFECA8D /* JSONParserSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JSONParserSwift-Info.plist"; sourceTree = "<group>"; };
+		EFF5B078AADC685ACD0089B64AFB213D /* ParsableModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParsableModel.swift; path = Source/ParsableModel.swift; sourceTree = "<group>"; };
+		F183B5BCE2C96C2F94508BC0E342EC6A /* RequestTaskMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestTaskMap.swift; path = Source/RequestTaskMap.swift; sourceTree = "<group>"; };
+		F48C49068C203FC38CD67AA1BE466E1F /* HTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeaders.swift; path = Source/HTTPHeaders.swift; sourceTree = "<group>"; };
+		F50A3F3D1B32A561CEBC56F6F7F60AAB /* JSONParserSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSONParserSwift.debug.xcconfig; sourceTree = "<group>"; };
+		F516C312658B9F2167A89337F150CA5F /* JSONParserSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSONParserSwift.release.xcconfig; sourceTree = "<group>"; };
+		FAFA81FD24C6C2DE31A8D80076075D67 /* Pods-Credly Take Home-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Credly Take Home-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FB55D70E13089616245713471A6E4EFE /* JSONParserSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONParserSwift-umbrella.h"; sourceTree = "<group>"; };
+		FBEF5BA62504C038083BEE2597592ABE /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
+		FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15DC142A7EE833251AA37FC8E2B8E01F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B068137A8925891446203B5D3D6A4ED /* CFNetwork.framework in Frameworks */,
+				0F4037DBF307AC8058BD0A3D35C7E7E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ADFD9950BB8A5B24BBDD94D79C6D124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47773E7DC88C23001587A48929CBC167 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AF2804A4A48F140748011EE00D7F8AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99C8230C7CF9430D296E1CE135C98DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4237C3939B80944DB191985D3F5F8FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10A033D8E9171F11195D081DF708D747 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2D31955EDD81739F3DD916DA2757EFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC260E7269867D77BAB44826694FAE98 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61C8CC330A5CA84DA2F5F1D32AB07069 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2708725ACF97A94A2AAB4CBA03F6E92F /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				07799176F4ACB2E94EFA7BF208CFA8E6 /* AFError.swift */,
+				747F5BA0BED341217C321AE0D97EAB92 /* Alamofire.swift */,
+				47960A9611A231A69786DBD3E3A53FE3 /* AlamofireExtended.swift */,
+				DED90DDF0C30C515387C8F96EFD2E1AB /* AuthenticationInterceptor.swift */,
+				4A3B45294FE077D7424A361FCFD3AF0A /* CachedResponseHandler.swift */,
+				63AA04FA46F0084D1169A121246D081F /* Combine.swift */,
+				1EF5BB20CAC911DEA9D2DFF8F679B85D /* Concurrency.swift */,
+				28AA8AA0AC21ECDEFE62A0347B01017C /* DispatchQueue+Alamofire.swift */,
+				374E4408D5E87CDC930F6489D82810B6 /* EventMonitor.swift */,
+				F48C49068C203FC38CD67AA1BE466E1F /* HTTPHeaders.swift */,
+				E2EA206B7571F79803E12D8533B116AD /* HTTPMethod.swift */,
+				7CEEDDF0549B4A12FA5E900DAEF843C4 /* MultipartFormData.swift */,
+				1FD3A30A09A2C1139C7048D97D6BC618 /* MultipartUpload.swift */,
+				3D6977D486621B0B0FE931CA9D559797 /* NetworkReachabilityManager.swift */,
+				1474900F1CCB0C7C00DFA4A24A359C1A /* Notifications.swift */,
+				DB62400532AA3300AB53F759FB14815B /* OperationQueue+Alamofire.swift */,
+				9A57E81E682AF4B3833454A8FCAEF9E6 /* ParameterEncoder.swift */,
+				DF4333C335A1D4F906B11FCDB8D961BA /* ParameterEncoding.swift */,
+				6F29EB3D20EFBACB7A1E9D04CB225173 /* Protected.swift */,
+				B94AA18C070E2DD61C14338CD1138EE4 /* RedirectHandler.swift */,
+				C7C607956D31DCD9A6EAC11FFD23EC01 /* Request.swift */,
+				253EC2F02CF01878CD403BABDA2164A7 /* RequestInterceptor.swift */,
+				F183B5BCE2C96C2F94508BC0E342EC6A /* RequestTaskMap.swift */,
+				B7627916AF5EADB55DD8953215DAFE35 /* Response.swift */,
+				6AE6B69D0B571D4B919F2B76443D6E82 /* ResponseSerialization.swift */,
+				89E846EF21E2A91E0DB085F4CE9F72E2 /* Result+Alamofire.swift */,
+				12386805768DFB89F1F86283D3F0B7A1 /* RetryPolicy.swift */,
+				BCBF6FD6CA1ACAE440F964CAC6425E03 /* ServerTrustEvaluation.swift */,
+				C9E3BA6962DDB53A6A5CB0192C5F92D4 /* Session.swift */,
+				B68D75E19F43548CD069D8FF6B72BE45 /* SessionDelegate.swift */,
+				2BE3E776E263540F9DF4C3A2A90B8E51 /* StringEncoding+Alamofire.swift */,
+				2B0C84D7DB9ABB9C3F88E85F4700A0EF /* URLConvertible+URLRequestConvertible.swift */,
+				41E2DB97FAF8F8F248FFF961B5CAC52D /* URLEncodedFormEncoder.swift */,
+				00CFA21A4DF4420B7686BC8C8B3F79AA /* URLRequest+Alamofire.swift */,
+				FBEF5BA62504C038083BEE2597592ABE /* URLSessionConfiguration+Alamofire.swift */,
+				B2325D00DC5843984AA875CDF8F0C905 /* Validation.swift */,
+				7A4181BF1A95B0B48FEA4B0DF256577D /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		61C8CC330A5CA84DA2F5F1D32AB07069 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8D3D57353834825F7B52B816066B7789 /* CFNetwork.framework */,
+				FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6535970EFD9B1BB2BAE626D1213A9890 /* Pods-Credly Take Home */ = {
+			isa = PBXGroup;
+			children = (
+				1636EA691FE79BA8171C25CE64633EFB /* Pods-Credly Take Home.modulemap */,
+				FAFA81FD24C6C2DE31A8D80076075D67 /* Pods-Credly Take Home-acknowledgements.markdown */,
+				A482AA65F995DA484AF9F00FD47096E0 /* Pods-Credly Take Home-acknowledgements.plist */,
+				0786813D34B806F5C24B2180101929C9 /* Pods-Credly Take Home-dummy.m */,
+				D391CED6301867F7803B8C53C4CE90A3 /* Pods-Credly Take Home-frameworks.sh */,
+				DD20700C31E418175671E04CC41B5152 /* Pods-Credly Take Home-Info.plist */,
+				47A7F2E51C23B7D180DF86302FC72B2D /* Pods-Credly Take Home-umbrella.h */,
+				322C2D26E9EEA459C3B872F187388B56 /* Pods-Credly Take Home.debug.xcconfig */,
+				8C071FA4E0A1F1F5BCCC8FC2455588E1 /* Pods-Credly Take Home.release.xcconfig */,
+			);
+			name = "Pods-Credly Take Home";
+			path = "Target Support Files/Pods-Credly Take Home";
+			sourceTree = "<group>";
+		};
+		7A4181BF1A95B0B48FEA4B0DF256577D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B16F7F76B067BB82747AAE4C3F6953B /* Alamofire.modulemap */,
+				54187AA314EF3F56DEF57E19EB2F9D4A /* Alamofire-dummy.m */,
+				1316B952656CAA1A440557F1DD7B0284 /* Alamofire-Info.plist */,
+				959CBA442FD9E7D54C8A49D5A1A69B89 /* Alamofire-prefix.pch */,
+				5CFBBA1A085E8ABB01CF03D5BC486FEE /* Alamofire-umbrella.h */,
+				4076A70EA118B982870837BBC5A1D74F /* Alamofire.debug.xcconfig */,
+				CA0174C72D526F12A7F9584B7E0F721E /* Alamofire.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		81099F079E410E0D613425A5D86C3B29 /* JSONParserSwift */ = {
+			isa = PBXGroup;
+			children = (
+				48D7D392352BA63445EA161251C5BB4B /* JSONParserSwift.swift */,
+				EFF5B078AADC685ACD0089B64AFB213D /* ParsableModel.swift */,
+				021B983C24DC58E20A120D109A718A77 /* Serialization.swift */,
+				D72D1AAFB83C961A28B8CF024284B249 /* Support Files */,
+			);
+			name = JSONParserSwift;
+			path = JSONParserSwift;
+			sourceTree = "<group>";
+		};
+		8ABA4B4012A2709DB991DB937EC82DFF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6535970EFD9B1BB2BAE626D1213A9890 /* Pods-Credly Take Home */,
+				E0942388302D4547A7853C99EFE58C11 /* Pods-Credly Take Home-Credly Take HomeUITests */,
+				9C7FDA31A9A35F64C904A879832CB408 /* Pods-Credly Take HomeTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9C7FDA31A9A35F64C904A879832CB408 /* Pods-Credly Take HomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				095795E4E739A834F8C2378E2DCA38C5 /* Pods-Credly Take HomeTests.modulemap */,
+				6366AB9E0F6BECDD663F3599481D21C1 /* Pods-Credly Take HomeTests-acknowledgements.markdown */,
+				E6BCFB126556E2F8F9353480113F49A2 /* Pods-Credly Take HomeTests-acknowledgements.plist */,
+				55149C9C2085B0F830B215D3005CDF64 /* Pods-Credly Take HomeTests-dummy.m */,
+				C686795EC421ADF9CE70397917AB4637 /* Pods-Credly Take HomeTests-Info.plist */,
+				0AFD3E305F091285991D48A0A86AA532 /* Pods-Credly Take HomeTests-umbrella.h */,
+				799CB08878D775CBDFC2DC28BFFF26AB /* Pods-Credly Take HomeTests.debug.xcconfig */,
+				8F475B7234479217D7897B4FD9039045 /* Pods-Credly Take HomeTests.release.xcconfig */,
+			);
+			name = "Pods-Credly Take HomeTests";
+			path = "Target Support Files/Pods-Credly Take HomeTests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				D74E0D8B5EFEF096E5163B0426ED7A8B /* Pods */,
+				DD5DC1E77A9B03CBB18F82E117C1127E /* Products */,
+				8ABA4B4012A2709DB991DB937EC82DFF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D72D1AAFB83C961A28B8CF024284B249 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E7194B80FAE9D3BDF6BE6DE0A48EAB0 /* JSONParserSwift.modulemap */,
+				0EF2FF6825E1AF93C19E00C1DEDF65A7 /* JSONParserSwift-dummy.m */,
+				E957FD507DF6ACDD3140E592BFFECA8D /* JSONParserSwift-Info.plist */,
+				532335530694883B9FBAD62D5FBB14DF /* JSONParserSwift-prefix.pch */,
+				FB55D70E13089616245713471A6E4EFE /* JSONParserSwift-umbrella.h */,
+				F50A3F3D1B32A561CEBC56F6F7F60AAB /* JSONParserSwift.debug.xcconfig */,
+				F516C312658B9F2167A89337F150CA5F /* JSONParserSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JSONParserSwift";
+			sourceTree = "<group>";
+		};
+		D74E0D8B5EFEF096E5163B0426ED7A8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2708725ACF97A94A2AAB4CBA03F6E92F /* Alamofire */,
+				81099F079E410E0D613425A5D86C3B29 /* JSONParserSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DD5DC1E77A9B03CBB18F82E117C1127E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */,
+				8ECF7A2E16A35C2691994821C8247CB7 /* JSONParserSwift */,
+				1918916F1A6F140E3288D94A88011764 /* Pods-Credly Take Home */,
+				48120ECB831B27D840C62575B50BDB24 /* Pods-Credly Take Home-Credly Take HomeUITests */,
+				4ACA1926CBACE3E4B11A94F3934C3689 /* Pods-Credly Take HomeTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0942388302D4547A7853C99EFE58C11 /* Pods-Credly Take Home-Credly Take HomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CBCE6B4EA62CFD795C9360F2920C9FBC /* Pods-Credly Take Home-Credly Take HomeUITests.modulemap */,
+				60C6CFC07E5397A5211DFE8E696AA747 /* Pods-Credly Take Home-Credly Take HomeUITests-acknowledgements.markdown */,
+				E1BB9E5E89393A90C7E2114F6F0619C8 /* Pods-Credly Take Home-Credly Take HomeUITests-acknowledgements.plist */,
+				BB68634E6715389D780460A0E2F82BE8 /* Pods-Credly Take Home-Credly Take HomeUITests-dummy.m */,
+				17D2B42FBA5681060F776EA989BF5C70 /* Pods-Credly Take Home-Credly Take HomeUITests-frameworks.sh */,
+				63D7B9F92A0781AA2003EB741A44E321 /* Pods-Credly Take Home-Credly Take HomeUITests-Info.plist */,
+				CA9EE58DFD9B6490CA1C726A2C9397DB /* Pods-Credly Take Home-Credly Take HomeUITests-umbrella.h */,
+				5BB0F1E42021D1BCD2745BBDBBE06B0F /* Pods-Credly Take Home-Credly Take HomeUITests.debug.xcconfig */,
+				BA57D0BC6D3908916FB68958999C90B2 /* Pods-Credly Take Home-Credly Take HomeUITests.release.xcconfig */,
+			);
+			name = "Pods-Credly Take Home-Credly Take HomeUITests";
+			path = "Target Support Files/Pods-Credly Take Home-Credly Take HomeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0CF2E9F609C817F1D8E4565899706F1B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62A81F4BEE131247622E20D46A442ED7 /* Pods-Credly Take Home-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3789FA4DC44F2157820251B60A8CAD25 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC3D30465456C56EB5CDC8FFF0F49A7 /* JSONParserSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E6F7B26483BE3BC9393C6C05D32424 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005B319B494ED2DAA239B9939A504DFC /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		765CC1A2F58A066E43D9C9E92BF4EACC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45443FB753F265E5D4EF4555692C5FC9 /* Pods-Credly Take Home-Credly Take HomeUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F41A40E058CC3B6EF77EBE154D31F23 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C49E327E4BDAE2BAB1265E1580EEF5 /* Pods-Credly Take HomeTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2937F62A28B51AEA28885657E184EC31 /* Pods-Credly Take Home */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC260D7C80F398E1AD0F18AFB02B8078 /* Build configuration list for PBXNativeTarget "Pods-Credly Take Home" */;
+			buildPhases = (
+				0CF2E9F609C817F1D8E4565899706F1B /* Headers */,
+				38EDC304F8D605DEF4F0E9E3192C2579 /* Sources */,
+				C2D31955EDD81739F3DD916DA2757EFF /* Frameworks */,
+				C2F032356ED55405AA221FFC9DE927D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1B8E4DCCFC9BC2642AA1DE982F985B4 /* PBXTargetDependency */,
+				0D130E21F016A6076FC130326BB2942A /* PBXTargetDependency */,
+			);
+			name = "Pods-Credly Take Home";
+			productName = Pods_Credly_Take_Home;
+			productReference = 1918916F1A6F140E3288D94A88011764 /* Pods-Credly Take Home */;
+			productType = "com.apple.product-type.framework";
+		};
+		8460110F37E589D18D77016CF1A4D164 /* JSONParserSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5196081049DFD8A92284101BF3604C63 /* Build configuration list for PBXNativeTarget "JSONParserSwift" */;
+			buildPhases = (
+				3789FA4DC44F2157820251B60A8CAD25 /* Headers */,
+				35E734015A0BCA310D6C7A933AAF7762 /* Sources */,
+				3AF2804A4A48F140748011EE00D7F8AB /* Frameworks */,
+				016B1C48E746A46099237B8B236021E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSONParserSwift;
+			productName = JSONParserSwift;
+			productReference = 8ECF7A2E16A35C2691994821C8247CB7 /* JSONParserSwift */;
+			productType = "com.apple.product-type.framework";
+		};
+		BFD78E22516EB4F7E38B4443DF45FAF0 /* Pods-Credly Take Home-Credly Take HomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61257D0BD0FB69CCA87410F0DB600503 /* Build configuration list for PBXNativeTarget "Pods-Credly Take Home-Credly Take HomeUITests" */;
+			buildPhases = (
+				765CC1A2F58A066E43D9C9E92BF4EACC /* Headers */,
+				F4BAB255544B6D09E782556666157BE1 /* Sources */,
+				2ADFD9950BB8A5B24BBDD94D79C6D124 /* Frameworks */,
+				D29BAF415338CE8B4B0C4D46408C37B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				895B1727408F6A49C377A588748D7586 /* PBXTargetDependency */,
+				D1A741D94D01E154F20A6437B55EC586 /* PBXTargetDependency */,
+			);
+			name = "Pods-Credly Take Home-Credly Take HomeUITests";
+			productName = Pods_Credly_Take_Home_Credly_Take_HomeUITests;
+			productReference = 48120ECB831B27D840C62575B50BDB24 /* Pods-Credly Take Home-Credly Take HomeUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A212264186B8822192F9C369D7DE4BB /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				52E6F7B26483BE3BC9393C6C05D32424 /* Headers */,
+				F5D2A45FBA06D86A537CB441D5BF4FF4 /* Sources */,
+				15DC142A7EE833251AA37FC8E2B8E01F /* Frameworks */,
+				E9D4145FA41F60FFAB33A07796D9ED97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */;
+			productType = "com.apple.product-type.framework";
+		};
+		EB52DC28339DBCBE2EE073FD83520E64 /* Pods-Credly Take HomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2E83A530FE1DF91CCB2C31BC82588AF /* Build configuration list for PBXNativeTarget "Pods-Credly Take HomeTests" */;
+			buildPhases = (
+				7F41A40E058CC3B6EF77EBE154D31F23 /* Headers */,
+				FA684165DEC44D349E13EF022748B683 /* Sources */,
+				A4237C3939B80944DB191985D3F5F8FA /* Frameworks */,
+				8977C128B0A1431E3324EEB8294F2027 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C00058FC804CA56D267BB63ECB16822D /* PBXTargetDependency */,
+			);
+			name = "Pods-Credly Take HomeTests";
+			productName = Pods_Credly_Take_HomeTests;
+			productReference = 4ACA1926CBACE3E4B11A94F3934C3689 /* Pods-Credly Take HomeTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DD5DC1E77A9B03CBB18F82E117C1127E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */,
+				8460110F37E589D18D77016CF1A4D164 /* JSONParserSwift */,
+				2937F62A28B51AEA28885657E184EC31 /* Pods-Credly Take Home */,
+				BFD78E22516EB4F7E38B4443DF45FAF0 /* Pods-Credly Take Home-Credly Take HomeUITests */,
+				EB52DC28339DBCBE2EE073FD83520E64 /* Pods-Credly Take HomeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		016B1C48E746A46099237B8B236021E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8977C128B0A1431E3324EEB8294F2027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F032356ED55405AA221FFC9DE927D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D29BAF415338CE8B4B0C4D46408C37B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D4145FA41F60FFAB33A07796D9ED97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35E734015A0BCA310D6C7A933AAF7762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E370831F34F4F521C5B3DE02A3617B /* JSONParserSwift.swift in Sources */,
+				366982C805F668F7AA4FCEC268517EB3 /* JSONParserSwift-dummy.m in Sources */,
+				4A6DE9FBCA00DB2A56FBBCF7A536F4CC /* ParsableModel.swift in Sources */,
+				13F21AD19E5114EEA432208331ED864D /* Serialization.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38EDC304F8D605DEF4F0E9E3192C2579 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE52A232B1625E028DE4041E89B874BE /* Pods-Credly Take Home-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BAB255544B6D09E782556666157BE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1822F1403792C383F1CB0A8B6BF3DE5 /* Pods-Credly Take Home-Credly Take HomeUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D2A45FBA06D86A537CB441D5BF4FF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0EA90FBF83350C49E6EF6C8A98D6F00 /* AFError.swift in Sources */,
+				F17A4CA4664CABB331D39FE902E06843 /* Alamofire.swift in Sources */,
+				55AABB1FB38F61A3369ACC555FF3046D /* Alamofire-dummy.m in Sources */,
+				1EE44196E7BCE57AD96A2C751651EF40 /* AlamofireExtended.swift in Sources */,
+				7483E5327027263F7E4B94A2997191C4 /* AuthenticationInterceptor.swift in Sources */,
+				2CBE3651CA006E19F5D64A2DE9B9A028 /* CachedResponseHandler.swift in Sources */,
+				46A64A43AFA057B6B63C8F0C12F509B4 /* Combine.swift in Sources */,
+				9C9030DEDB0DF955B16FE08C50892D57 /* Concurrency.swift in Sources */,
+				EEC150B66BCCD6C80FDA7E4D1975166B /* DispatchQueue+Alamofire.swift in Sources */,
+				CEBFFEED65D877702B2F36102528CF6D /* EventMonitor.swift in Sources */,
+				7E02F5B62BE00E97847DF549FFED2490 /* HTTPHeaders.swift in Sources */,
+				D6B4751CED01D53E4A1B6A571AAA2F83 /* HTTPMethod.swift in Sources */,
+				7FE695DA8EE7FF1286556E06B692009B /* MultipartFormData.swift in Sources */,
+				E9B4C89E7EB3B27D46AFCA452C3D426F /* MultipartUpload.swift in Sources */,
+				A29100AA1876DDEFF6F54694A51FDB0E /* NetworkReachabilityManager.swift in Sources */,
+				2CCD13099063CD560E3067BD132914FA /* Notifications.swift in Sources */,
+				E54654D504A42C24F284A68F87F7671D /* OperationQueue+Alamofire.swift in Sources */,
+				99D058E53EFEE3AC4857CDE3DBA5C004 /* ParameterEncoder.swift in Sources */,
+				68FB2DCB4C77DBCAF9A6037E470F2BDE /* ParameterEncoding.swift in Sources */,
+				A53BDE589BDD6483F3EEDCE5EA1DCCD3 /* Protected.swift in Sources */,
+				045DE6EBF9B2F63F60F5BE60C1198E06 /* RedirectHandler.swift in Sources */,
+				B3658C29BBDE1033F6269A92E612CB30 /* Request.swift in Sources */,
+				DD902FE8D6824681C929D028655AE121 /* RequestInterceptor.swift in Sources */,
+				DA34899BEF0668D76CBCE8C4CE47B97B /* RequestTaskMap.swift in Sources */,
+				75966A9262648D4647D764E3E76BC6AC /* Response.swift in Sources */,
+				824D816B1EE404F2DD400EE678695CBE /* ResponseSerialization.swift in Sources */,
+				04A896288CE3A59B530250337A5F8362 /* Result+Alamofire.swift in Sources */,
+				33A7D0F2D03004CE256A75E03DF33C70 /* RetryPolicy.swift in Sources */,
+				B704B198B9B520D449260877E300D821 /* ServerTrustEvaluation.swift in Sources */,
+				81B8D2B7CEB25C2448B0BC9B33591A65 /* Session.swift in Sources */,
+				1976BB7D7E26A12E29283E71154B63B3 /* SessionDelegate.swift in Sources */,
+				7F1BB526AAE3ECDCE90127D9D0E10261 /* StringEncoding+Alamofire.swift in Sources */,
+				8D75FC8D7476C9674234F39F1A820D8C /* URLConvertible+URLRequestConvertible.swift in Sources */,
+				7930C94414B4C661867AC4FBE82E996C /* URLEncodedFormEncoder.swift in Sources */,
+				BC0ECA8F22DEDE8886E189CD0EAA1197 /* URLRequest+Alamofire.swift in Sources */,
+				808C960C82D708FC1A42C581D6CB4940 /* URLSessionConfiguration+Alamofire.swift in Sources */,
+				3C4059621E23842C19D4EB5D35B41989 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA684165DEC44D349E13EF022748B683 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B5AEB72239403A2FB1A7E0E9C06F29A /* Pods-Credly Take HomeTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D130E21F016A6076FC130326BB2942A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSONParserSwift;
+			target = 8460110F37E589D18D77016CF1A4D164 /* JSONParserSwift */;
+			targetProxy = BCA085EAE1EB4638D13C4844E80C00A7 /* PBXContainerItemProxy */;
+		};
+		895B1727408F6A49C377A588748D7586 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 4767FEF14AC53EEF4B8C51D23BD1611B /* PBXContainerItemProxy */;
+		};
+		B1B8E4DCCFC9BC2642AA1DE982F985B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 6AD1324DD1CDC4D40C24748F4E07EE61 /* PBXContainerItemProxy */;
+		};
+		C00058FC804CA56D267BB63ECB16822D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Credly Take Home";
+			target = 2937F62A28B51AEA28885657E184EC31 /* Pods-Credly Take Home */;
+			targetProxy = 3918A2DBB0D0E5463CDB6BB9AB3DCB3C /* PBXContainerItemProxy */;
+		};
+		D1A741D94D01E154F20A6437B55EC586 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSONParserSwift;
+			target = 8460110F37E589D18D77016CF1A4D164 /* JSONParserSwift */;
+			targetProxy = 0B6554C2B3FD10EDB4EA88E548E96ED6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26ED8222BCE9F31B74738D935C7ED5A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F475B7234479217D7897B4FD9039045 /* Pods-Credly Take HomeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Credly Take HomeTests/Pods-Credly Take HomeTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Credly Take HomeTests/Pods-Credly Take HomeTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2FAE6FE0E9204182B19280FAB188665F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 322C2D26E9EEA459C3B872F187388B56 /* Pods-Credly Take Home.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Credly Take Home/Pods-Credly Take Home-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Credly Take Home/Pods-Credly Take Home.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6D8548FDCBF3C55BCA1BCCA7CCA75BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C071FA4E0A1F1F5BCCC8FC2455588E1 /* Pods-Credly Take Home.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Credly Take Home/Pods-Credly Take Home-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Credly Take Home/Pods-Credly Take Home.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		87C3A156C3F5997B3DEAE40AF78CF0CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F50A3F3D1B32A561CEBC56F6F7F60AAB /* JSONParserSwift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JSONParserSwift/JSONParserSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSONParserSwift/JSONParserSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/JSONParserSwift/JSONParserSwift.modulemap";
+				PRODUCT_MODULE_NAME = JSONParserSwift;
+				PRODUCT_NAME = JSONParserSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		880219FBBFBA4B703A46B5F770D59ADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4076A70EA118B982870837BBC5A1D74F /* Alamofire.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8EC5245FC18576FE0A888C99EA19547E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F516C312658B9F2167A89337F150CA5F /* JSONParserSwift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JSONParserSwift/JSONParserSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSONParserSwift/JSONParserSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/JSONParserSwift/JSONParserSwift.modulemap";
+				PRODUCT_MODULE_NAME = JSONParserSwift;
+				PRODUCT_NAME = JSONParserSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A3A4FB9D15374259AAE1164CDF496CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 799CB08878D775CBDFC2DC28BFFF26AB /* Pods-Credly Take HomeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Credly Take HomeTests/Pods-Credly Take HomeTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Credly Take HomeTests/Pods-Credly Take HomeTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BDE2A62B30DAEDFC7A9F6A22C7E0FB5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA57D0BC6D3908916FB68958999C90B2 /* Pods-Credly Take Home-Credly Take HomeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Credly Take Home-Credly Take HomeUITests/Pods-Credly Take Home-Credly Take HomeUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Credly Take Home-Credly Take HomeUITests/Pods-Credly Take Home-Credly Take HomeUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EB48B64DF0FEF436F2B12D60952D654E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BB0F1E42021D1BCD2745BBDBBE06B0F /* Pods-Credly Take Home-Credly Take HomeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Credly Take Home-Credly Take HomeUITests/Pods-Credly Take Home-Credly Take HomeUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Credly Take Home-Credly Take HomeUITests/Pods-Credly Take Home-Credly Take HomeUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4FF6A0D1970CA9705974E3CB2134802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F95E4C330E939A7027D8A4E361545DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA0174C72D526F12A7F9584B7E0F721E /* Alamofire.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FF6A0D1970CA9705974E3CB2134802 /* Debug */,
+				30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5196081049DFD8A92284101BF3604C63 /* Build configuration list for PBXNativeTarget "JSONParserSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87C3A156C3F5997B3DEAE40AF78CF0CD /* Debug */,
+				8EC5245FC18576FE0A888C99EA19547E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61257D0BD0FB69CCA87410F0DB600503 /* Build configuration list for PBXNativeTarget "Pods-Credly Take Home-Credly Take HomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB48B64DF0FEF436F2B12D60952D654E /* Debug */,
+				BDE2A62B30DAEDFC7A9F6A22C7E0FB5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A212264186B8822192F9C369D7DE4BB /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880219FBBFBA4B703A46B5F770D59ADF /* Debug */,
+				F95E4C330E939A7027D8A4E361545DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC260D7C80F398E1AD0F18AFB02B8078 /* Build configuration list for PBXNativeTarget "Pods-Credly Take Home" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FAE6FE0E9204182B19280FAB188665F /* Debug */,
+				6D8548FDCBF3C55BCA1BCCA7CCA75BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2E83A530FE1DF91CCB2C31BC82588AF /* Build configuration list for PBXNativeTarget "Pods-Credly Take HomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3A4FB9D15374259AAE1164CDF496CE4 /* Debug */,
+				26ED8222BCE9F31B74738D935C7ED5A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

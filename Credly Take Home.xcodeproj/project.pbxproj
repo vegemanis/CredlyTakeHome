@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5703A2E1299FBF2B00CCFC44 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5703A2E0299FBF2B00CCFC44 /* UserTableViewCell.swift */; };
+		5703A2E3299FC41A00CCFC44 /* UsersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5703A2E2299FC41A00CCFC44 /* UsersViewModel.swift */; };
+		5703A2E5299FD2A000CCFC44 /* NetworkManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5703A2E4299FD2A000CCFC44 /* NetworkManagerProtocol.swift */; };
+		5703A2E7299FD38800CCFC44 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5703A2E6299FD38800CCFC44 /* NetworkManager.swift */; };
+		5703A2EB299FD4A400CCFC44 /* UsersAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5703A2EA299FD4A400CCFC44 /* UsersAPITests.swift */; };
+		5703A2EC299FD99C00CCFC44 /* NetworkManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5703A2E8299FD39700CCFC44 /* NetworkManagerMock.swift */; };
+		5703A2EE299FDA5400CCFC44 /* UsersAPIMockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5703A2ED299FDA5400CCFC44 /* UsersAPIMockData.swift */; };
+		5703A2F5299FE4CC00CCFC44 /* UsersAPIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5703A2F4299FE4CC00CCFC44 /* UsersAPIProtocol.swift */; };
+		5703A2F7299FE52500CCFC44 /* UsersViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5703A2F6299FE52500CCFC44 /* UsersViewModelTests.swift */; };
+		5703A2F9299FE68400CCFC44 /* UsersAPIMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5703A2F8299FE68400CCFC44 /* UsersAPIMock.swift */; };
+		5703A2FB299FEF6A00CCFC44 /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5703A2FA299FEF6A00CCFC44 /* UserTableViewCell.xib */; };
+		57652BF6299FACA7007CFB53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57652BF5299FACA7007CFB53 /* AppDelegate.swift */; };
+		57652BF8299FACA7007CFB53 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57652BF7299FACA7007CFB53 /* SceneDelegate.swift */; };
+		57652BFA299FACA7007CFB53 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57652BF9299FACA7007CFB53 /* UsersViewController.swift */; };
+		57652BFD299FACA7007CFB53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57652BFB299FACA7007CFB53 /* Main.storyboard */; };
+		57652BFF299FACA8007CFB53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57652BFE299FACA8007CFB53 /* Assets.xcassets */; };
+		57652C02299FACA8007CFB53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57652C00299FACA8007CFB53 /* LaunchScreen.storyboard */; };
+		57652C26299FB079007CFB53 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57652C25299FB079007CFB53 /* UserModel.swift */; };
+		57652C28299FB081007CFB53 /* AddressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57652C27299FB081007CFB53 /* AddressModel.swift */; };
+		57652C2A299FB093007CFB53 /* CompanyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57652C29299FB093007CFB53 /* CompanyModel.swift */; };
+		57652C2C299FB0A7007CFB53 /* GeoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57652C2B299FB0A7007CFB53 /* GeoModel.swift */; };
+		57652C31299FB30A007CFB53 /* UsersAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57652C30299FB30A007CFB53 /* UsersAPI.swift */; };
+		A936BC59410B6C2D829C7E9E /* Pods_Credly_Take_HomeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05FAAF011462CD650B7234FF /* Pods_Credly_Take_HomeTests.framework */; };
+		BFD17BFEA7BE26CF6ACF3646 /* Pods_Credly_Take_Home.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF6488226CC36BD99997FDE8 /* Pods_Credly_Take_Home.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57652C09299FACA8007CFB53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57652BEA299FACA7007CFB53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57652BF1299FACA7007CFB53;
+			remoteInfo = "Credly Take Home";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05FAAF011462CD650B7234FF /* Pods_Credly_Take_HomeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Credly_Take_HomeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D5DBEA8ACEC2267C89A51E4 /* Pods_Credly_Take_Home_Credly_Take_HomeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Credly_Take_Home_Credly_Take_HomeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F46A51BFA22DDEBB43F78A6 /* Pods-Credly Take HomeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Credly Take HomeTests.debug.xcconfig"; path = "Target Support Files/Pods-Credly Take HomeTests/Pods-Credly Take HomeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		43612AE9D71A466E160FBCC0 /* Pods-Credly Take Home.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Credly Take Home.release.xcconfig"; path = "Target Support Files/Pods-Credly Take Home/Pods-Credly Take Home.release.xcconfig"; sourceTree = "<group>"; };
+		4F0C8499E4DB83C20283D1FB /* Pods-Credly Take Home-Credly Take HomeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Credly Take Home-Credly Take HomeUITests.debug.xcconfig"; path = "Target Support Files/Pods-Credly Take Home-Credly Take HomeUITests/Pods-Credly Take Home-Credly Take HomeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5703A2E0299FBF2B00CCFC44 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		5703A2E2299FC41A00CCFC44 /* UsersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewModel.swift; sourceTree = "<group>"; };
+		5703A2E4299FD2A000CCFC44 /* NetworkManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerProtocol.swift; sourceTree = "<group>"; };
+		5703A2E6299FD38800CCFC44 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		5703A2E8299FD39700CCFC44 /* NetworkManagerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerMock.swift; sourceTree = "<group>"; };
+		5703A2EA299FD4A400CCFC44 /* UsersAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersAPITests.swift; sourceTree = "<group>"; };
+		5703A2ED299FDA5400CCFC44 /* UsersAPIMockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersAPIMockData.swift; sourceTree = "<group>"; };
+		5703A2F4299FE4CC00CCFC44 /* UsersAPIProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersAPIProtocol.swift; sourceTree = "<group>"; };
+		5703A2F6299FE52500CCFC44 /* UsersViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewModelTests.swift; sourceTree = "<group>"; };
+		5703A2F8299FE68400CCFC44 /* UsersAPIMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersAPIMock.swift; sourceTree = "<group>"; };
+		5703A2FA299FEF6A00CCFC44 /* UserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserTableViewCell.xib; sourceTree = "<group>"; };
+		57652BF2299FACA7007CFB53 /* Credly Take Home.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Credly Take Home.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57652BF5299FACA7007CFB53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57652BF7299FACA7007CFB53 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		57652BF9299FACA7007CFB53 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		57652BFC299FACA7007CFB53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57652BFE299FACA8007CFB53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57652C01299FACA8007CFB53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57652C03299FACA8007CFB53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57652C08299FACA8007CFB53 /* Credly Take HomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Credly Take HomeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57652C25299FB079007CFB53 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		57652C27299FB081007CFB53 /* AddressModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressModel.swift; sourceTree = "<group>"; };
+		57652C29299FB093007CFB53 /* CompanyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyModel.swift; sourceTree = "<group>"; };
+		57652C2B299FB0A7007CFB53 /* GeoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoModel.swift; sourceTree = "<group>"; };
+		57652C30299FB30A007CFB53 /* UsersAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersAPI.swift; sourceTree = "<group>"; };
+		6ACE2BCB8FDDC1FD487EF0EE /* Pods-Credly Take Home.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Credly Take Home.debug.xcconfig"; path = "Target Support Files/Pods-Credly Take Home/Pods-Credly Take Home.debug.xcconfig"; sourceTree = "<group>"; };
+		BF6488226CC36BD99997FDE8 /* Pods_Credly_Take_Home.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Credly_Take_Home.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF173C313749253E54C73E5C /* Pods-Credly Take HomeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Credly Take HomeTests.release.xcconfig"; path = "Target Support Files/Pods-Credly Take HomeTests/Pods-Credly Take HomeTests.release.xcconfig"; sourceTree = "<group>"; };
+		F318BCD8BC4E7172BD916CA4 /* Pods-Credly Take Home-Credly Take HomeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Credly Take Home-Credly Take HomeUITests.release.xcconfig"; path = "Target Support Files/Pods-Credly Take Home-Credly Take HomeUITests/Pods-Credly Take Home-Credly Take HomeUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57652BEF299FACA7007CFB53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD17BFEA7BE26CF6ACF3646 /* Pods_Credly_Take_Home.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57652C05299FACA8007CFB53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A936BC59410B6C2D829C7E9E /* Pods_Credly_Take_HomeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5703A2EF299FE27C00CCFC44 /* UsersAPI */ = {
+			isa = PBXGroup;
+			children = (
+				5703A2EA299FD4A400CCFC44 /* UsersAPITests.swift */,
+				5703A2ED299FDA5400CCFC44 /* UsersAPIMockData.swift */,
+			);
+			path = UsersAPI;
+			sourceTree = "<group>";
+		};
+		5703A2F0299FE29100CCFC44 /* UsersViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5703A2F6299FE52500CCFC44 /* UsersViewModelTests.swift */,
+				5703A2F8299FE68400CCFC44 /* UsersAPIMock.swift */,
+			);
+			path = UsersViewModel;
+			sourceTree = "<group>";
+		};
+		5703A2F1299FE2A900CCFC44 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				5703A2E6299FD38800CCFC44 /* NetworkManager.swift */,
+				5703A2E4299FD2A000CCFC44 /* NetworkManagerProtocol.swift */,
+				57652C30299FB30A007CFB53 /* UsersAPI.swift */,
+				5703A2F4299FE4CC00CCFC44 /* UsersAPIProtocol.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		5703A2F2299FE2CD00CCFC44 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				57652BF9299FACA7007CFB53 /* UsersViewController.swift */,
+				5703A2E0299FBF2B00CCFC44 /* UserTableViewCell.swift */,
+				5703A2FA299FEF6A00CCFC44 /* UserTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5703A2F3299FE2F900CCFC44 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5703A2E2299FC41A00CCFC44 /* UsersViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		57652BE9299FACA7007CFB53 = {
+			isa = PBXGroup;
+			children = (
+				57652BF4299FACA7007CFB53 /* Credly Take Home */,
+				57652C0B299FACA8007CFB53 /* Credly Take HomeTests */,
+				57652BF3299FACA7007CFB53 /* Products */,
+				846A83089891EB3EC43F275B /* Pods */,
+				CD6D86ACD98FAA22B475A865 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		57652BF3299FACA7007CFB53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57652BF2299FACA7007CFB53 /* Credly Take Home.app */,
+				57652C08299FACA8007CFB53 /* Credly Take HomeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57652BF4299FACA7007CFB53 /* Credly Take Home */ = {
+			isa = PBXGroup;
+			children = (
+				5703A2F2299FE2CD00CCFC44 /* Views */,
+				5703A2F3299FE2F900CCFC44 /* ViewModels */,
+				57652C2F299FB295007CFB53 /* Model */,
+				57652BF5299FACA7007CFB53 /* AppDelegate.swift */,
+				57652BF7299FACA7007CFB53 /* SceneDelegate.swift */,
+				57652BFB299FACA7007CFB53 /* Main.storyboard */,
+				57652BFE299FACA8007CFB53 /* Assets.xcassets */,
+				57652C00299FACA8007CFB53 /* LaunchScreen.storyboard */,
+				57652C03299FACA8007CFB53 /* Info.plist */,
+			);
+			path = "Credly Take Home";
+			sourceTree = "<group>";
+		};
+		57652C0B299FACA8007CFB53 /* Credly Take HomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				5703A2E8299FD39700CCFC44 /* NetworkManagerMock.swift */,
+				5703A2F0299FE29100CCFC44 /* UsersViewModel */,
+				5703A2EF299FE27C00CCFC44 /* UsersAPI */,
+			);
+			path = "Credly Take HomeTests";
+			sourceTree = "<group>";
+		};
+		57652C2F299FB295007CFB53 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5703A2F1299FE2A900CCFC44 /* Networking */,
+				57652C27299FB081007CFB53 /* AddressModel.swift */,
+				57652C29299FB093007CFB53 /* CompanyModel.swift */,
+				57652C2B299FB0A7007CFB53 /* GeoModel.swift */,
+				57652C25299FB079007CFB53 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		846A83089891EB3EC43F275B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6ACE2BCB8FDDC1FD487EF0EE /* Pods-Credly Take Home.debug.xcconfig */,
+				43612AE9D71A466E160FBCC0 /* Pods-Credly Take Home.release.xcconfig */,
+				4F0C8499E4DB83C20283D1FB /* Pods-Credly Take Home-Credly Take HomeUITests.debug.xcconfig */,
+				F318BCD8BC4E7172BD916CA4 /* Pods-Credly Take Home-Credly Take HomeUITests.release.xcconfig */,
+				1F46A51BFA22DDEBB43F78A6 /* Pods-Credly Take HomeTests.debug.xcconfig */,
+				EF173C313749253E54C73E5C /* Pods-Credly Take HomeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CD6D86ACD98FAA22B475A865 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6488226CC36BD99997FDE8 /* Pods_Credly_Take_Home.framework */,
+				1D5DBEA8ACEC2267C89A51E4 /* Pods_Credly_Take_Home_Credly_Take_HomeUITests.framework */,
+				05FAAF011462CD650B7234FF /* Pods_Credly_Take_HomeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57652BF1299FACA7007CFB53 /* Credly Take Home */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57652C1C299FACA8007CFB53 /* Build configuration list for PBXNativeTarget "Credly Take Home" */;
+			buildPhases = (
+				C2072BCB5F3877A29364403C /* [CP] Check Pods Manifest.lock */,
+				57652BEE299FACA7007CFB53 /* Sources */,
+				57652BEF299FACA7007CFB53 /* Frameworks */,
+				57652BF0299FACA7007CFB53 /* Resources */,
+				2DDCB3C65903B78AE24281B5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Credly Take Home";
+			productName = "Credly Take Home";
+			productReference = 57652BF2299FACA7007CFB53 /* Credly Take Home.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57652C07299FACA8007CFB53 /* Credly Take HomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57652C1F299FACA8007CFB53 /* Build configuration list for PBXNativeTarget "Credly Take HomeTests" */;
+			buildPhases = (
+				FB939448B91EE1FD78A80398 /* [CP] Check Pods Manifest.lock */,
+				57652C04299FACA8007CFB53 /* Sources */,
+				57652C05299FACA8007CFB53 /* Frameworks */,
+				57652C06299FACA8007CFB53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57652C0A299FACA8007CFB53 /* PBXTargetDependency */,
+			);
+			name = "Credly Take HomeTests";
+			productName = "Credly Take HomeTests";
+			productReference = 57652C08299FACA8007CFB53 /* Credly Take HomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57652BEA299FACA7007CFB53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					57652BF1299FACA7007CFB53 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					57652C07299FACA8007CFB53 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 57652BF1299FACA7007CFB53;
+					};
+				};
+			};
+			buildConfigurationList = 57652BED299FACA7007CFB53 /* Build configuration list for PBXProject "Credly Take Home" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57652BE9299FACA7007CFB53;
+			productRefGroup = 57652BF3299FACA7007CFB53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57652BF1299FACA7007CFB53 /* Credly Take Home */,
+				57652C07299FACA8007CFB53 /* Credly Take HomeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57652BF0299FACA7007CFB53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5703A2FB299FEF6A00CCFC44 /* UserTableViewCell.xib in Resources */,
+				57652C02299FACA8007CFB53 /* LaunchScreen.storyboard in Resources */,
+				57652BFF299FACA8007CFB53 /* Assets.xcassets in Resources */,
+				57652BFD299FACA7007CFB53 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57652C06299FACA8007CFB53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DDCB3C65903B78AE24281B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Credly Take Home/Pods-Credly Take Home-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Credly Take Home/Pods-Credly Take Home-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Credly Take Home/Pods-Credly Take Home-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2072BCB5F3877A29364403C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Credly Take Home-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB939448B91EE1FD78A80398 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Credly Take HomeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57652BEE299FACA7007CFB53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5703A2E7299FD38800CCFC44 /* NetworkManager.swift in Sources */,
+				5703A2E5299FD2A000CCFC44 /* NetworkManagerProtocol.swift in Sources */,
+				57652C2C299FB0A7007CFB53 /* GeoModel.swift in Sources */,
+				5703A2E1299FBF2B00CCFC44 /* UserTableViewCell.swift in Sources */,
+				57652C31299FB30A007CFB53 /* UsersAPI.swift in Sources */,
+				57652C26299FB079007CFB53 /* UserModel.swift in Sources */,
+				57652BFA299FACA7007CFB53 /* UsersViewController.swift in Sources */,
+				5703A2F5299FE4CC00CCFC44 /* UsersAPIProtocol.swift in Sources */,
+				57652BF6299FACA7007CFB53 /* AppDelegate.swift in Sources */,
+				57652C2A299FB093007CFB53 /* CompanyModel.swift in Sources */,
+				57652BF8299FACA7007CFB53 /* SceneDelegate.swift in Sources */,
+				57652C28299FB081007CFB53 /* AddressModel.swift in Sources */,
+				5703A2E3299FC41A00CCFC44 /* UsersViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57652C04299FACA8007CFB53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5703A2EC299FD99C00CCFC44 /* NetworkManagerMock.swift in Sources */,
+				5703A2F7299FE52500CCFC44 /* UsersViewModelTests.swift in Sources */,
+				5703A2EE299FDA5400CCFC44 /* UsersAPIMockData.swift in Sources */,
+				5703A2EB299FD4A400CCFC44 /* UsersAPITests.swift in Sources */,
+				5703A2F9299FE68400CCFC44 /* UsersAPIMock.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57652C0A299FACA8007CFB53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57652BF1299FACA7007CFB53 /* Credly Take Home */;
+			targetProxy = 57652C09299FACA8007CFB53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57652BFB299FACA7007CFB53 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57652BFC299FACA7007CFB53 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57652C00299FACA8007CFB53 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57652C01299FACA8007CFB53 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57652C1A299FACA8007CFB53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57652C1B299FACA8007CFB53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57652C1D299FACA8007CFB53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ACE2BCB8FDDC1FD487EF0EE /* Pods-Credly Take Home.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Credly Take Home/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.victor.Credly-Take-Home";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57652C1E299FACA8007CFB53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43612AE9D71A466E160FBCC0 /* Pods-Credly Take Home.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Credly Take Home/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.victor.Credly-Take-Home";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		57652C20299FACA8007CFB53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F46A51BFA22DDEBB43F78A6 /* Pods-Credly Take HomeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.victor.Credly-Take-HomeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Credly Take Home.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Credly Take Home";
+			};
+			name = Debug;
+		};
+		57652C21299FACA8007CFB53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF173C313749253E54C73E5C /* Pods-Credly Take HomeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.victor.Credly-Take-HomeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Credly Take Home.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Credly Take Home";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57652BED299FACA7007CFB53 /* Build configuration list for PBXProject "Credly Take Home" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57652C1A299FACA8007CFB53 /* Debug */,
+				57652C1B299FACA8007CFB53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57652C1C299FACA8007CFB53 /* Build configuration list for PBXNativeTarget "Credly Take Home" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57652C1D299FACA8007CFB53 /* Debug */,
+				57652C1E299FACA8007CFB53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57652C1F299FACA8007CFB53 /* Build configuration list for PBXNativeTarget "Credly Take HomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57652C20299FACA8007CFB53 /* Debug */,
+				57652C21299FACA8007CFB53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57652BEA299FACA7007CFB53 /* Project object */;
+}

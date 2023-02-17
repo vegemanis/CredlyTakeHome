@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="84" id="FsW-Dy-wrd" customClass="UserTableViewCell" customModule="Credly_Take_Home" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="363" height="84"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="FsW-Dy-wrd" id="nhn-BP-WxS">
+                <rect key="frame" x="0.0" y="0.0" width="363" height="84"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uCT-GX-ARg">
+                        <rect key="frame" x="24" y="8" width="315" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uXy-h8-Ff5">
+                        <rect key="frame" x="24" y="37" width="315" height="15.333333333333336"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FJt-qV-pla">
+                        <rect key="frame" x="24" y="60.333333333333336" width="315" height="15.666666666666664"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="uXy-h8-Ff5" secondAttribute="trailing" constant="24" id="3uU-ho-044"/>
+                    <constraint firstItem="uCT-GX-ARg" firstAttribute="leading" secondItem="nhn-BP-WxS" secondAttribute="leading" constant="24" id="6cj-1N-WOO"/>
+                    <constraint firstAttribute="trailing" secondItem="uCT-GX-ARg" secondAttribute="trailing" constant="24" id="AvR-uT-paq"/>
+                    <constraint firstItem="FJt-qV-pla" firstAttribute="top" secondItem="uXy-h8-Ff5" secondAttribute="bottom" constant="8" symbolic="YES" id="Jys-ef-Qd0"/>
+                    <constraint firstItem="FJt-qV-pla" firstAttribute="leading" secondItem="nhn-BP-WxS" secondAttribute="leading" constant="24" id="Qqv-PV-qWI"/>
+                    <constraint firstItem="uXy-h8-Ff5" firstAttribute="leading" secondItem="nhn-BP-WxS" secondAttribute="leading" constant="24" id="aBU-zv-Pkx"/>
+                    <constraint firstItem="uXy-h8-Ff5" firstAttribute="top" secondItem="uCT-GX-ARg" secondAttribute="bottom" constant="8" symbolic="YES" id="fEu-40-2Kk"/>
+                    <constraint firstAttribute="trailing" secondItem="FJt-qV-pla" secondAttribute="trailing" constant="24" id="iq3-zk-yal"/>
+                    <constraint firstAttribute="bottom" secondItem="FJt-qV-pla" secondAttribute="bottom" constant="8" id="jF5-Vs-vdV"/>
+                    <constraint firstItem="uCT-GX-ARg" firstAttribute="top" secondItem="nhn-BP-WxS" secondAttribute="top" constant="8" id="zOk-r9-M4R"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="email" destination="uXy-h8-Ff5" id="Chh-vT-uPA"/>
+                <outlet property="name" destination="uCT-GX-ARg" id="uIA-r5-euz"/>
+                <outlet property="phoneNumber" destination="FJt-qV-pla" id="nzc-Eb-5eu"/>
+            </connections>
+            <point key="canvasLocation" x="-47" y="-65"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,6 @@
+framework module Pods_Credly_Take_Home_Credly_Take_HomeUITests {
+  umbrella header "Pods-Credly Take Home-Credly Take HomeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

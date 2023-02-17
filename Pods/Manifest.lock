@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (5.6.4)
+  - JSONParserSwift (1.1.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.6)
+  - JSONParserSwift (~> 1.1)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - JSONParserSwift
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  JSONParserSwift: fff6c8aee929431cfbb10d016e9b92f06f732057
+
+PODFILE CHECKSUM: d1495ef4ad82a3da315e8bab59827ec8fd352821
+
+COCOAPODS: 1.11.3
